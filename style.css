@@ -1,11 +1,13 @@
 body{
     font-family: 'IBM Plex Serif', serif;
+    margin: 0%;
 }
 
 h1{
     font-size: 50px;
     font-weight: bolder;
     color: orange;
+    background-image: linear-gradient(purple, darkblue);
 }
 
 .name-color{
@@ -20,4 +22,24 @@ h1{
 .half-width img{
     width: 100% ;
     float: right ;
+    margin-top: 50%;
+    margin-right: 2%;
+    padding-right: 2%;
+    
+}
+.top-banner{
+   background-image: url(images/top-banner.png);
+   background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(43, 162, 241);
+    background-image: linear-gradient(45deg, rgb(82, 82, 240),  darkblue );
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: floralwhite;
+    font-weight: 800;
 }
